@@ -8,8 +8,8 @@ param (
 )
 
 $config = @{}
-$msiFileName = "Octopus.latest-x64.msi"
-$downloadUrl = "https://octopus.com/downloads/latest/OctopusServer64"
+$msiFileName = "Octopus.4.1.5-x64.msi"
+$downloadUrl = "https://download.octopusdeploy.com/octopus/Octopus.4.1.5-x64.msi"
 $installBasePath = "D:\Install\"
 $msiPath = $installBasePath + $msiFileName
 $msiLogPath = $installBasePath + $msiFileName + '.log'
